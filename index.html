@@ -868,6 +868,22 @@
         showScreen("My_Profile");
 
     }
+<script type="module">
+
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCTYp1sQjHSSdAsz_Xx6-X9Mb6lTN8plyk",
+  authDomain: "k-b-vira-sphere.firebaseapp.com",
+  projectId: "k-b-vira-sphere",
+  storageBucket: "k-b-vira-sphere.appspot.com",
+  messagingSenderId: "981121501417",
+  appId: "1:981121501417:web:8f229dba0616dbf24878"
+};
+
+const app = initializeApp(firebaseConfig);
+
+window.firebaseApp = app;
 
 </script>
 
